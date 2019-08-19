@@ -1,0 +1,4 @@
+<h1>Games#score</h1>
+<p><%= @message %></p>
+<p><%= session[:score].present? ? session[:score] : 0 %></p>
+  <%= link_to "Play again", new_path %>
